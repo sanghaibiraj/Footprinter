@@ -41,7 +41,13 @@ Before you can use this script, ensure that you have the following prerequisites
     cd Footprinter
     ```
 
-3. Run the script by providing a domain name as an argument:
+3. Install the requirements:
+
+    ```shell
+    pip install -r requirements.txt
+    ```
+
+4. Run the script by providing a domain name as an argument:
 
    ```shell
    python info_gathering.py -d example.com -o file_address
@@ -51,7 +57,7 @@ Before you can use this script, ensure that you have the following prerequisites
    Replace `file_address` with the address of the file where you want to store the data
    Providing the domain name is compulsory, you may/may not use the `-o or --output` to save the output
 
-4. The script will provide you with information about the specified domain, including WHOIS details, DNS records, and geolocation information.
+5. The script will provide you with information about the specified domain, including WHOIS details, DNS records, and geolocation information.
 
 ### Example Output
 Here's an example of the output you can expect from the script:
